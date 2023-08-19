@@ -1,9 +1,20 @@
-var names = ['barbarosa', "uruj,sinanthearch"];
-var numbers = [10, 12, 14, 20];
-numbers.push(25);
-//objects
-var barbarosa = {
-    name: "barbarosa",
-    belt: "blue",
-    age: 20,
-};
+var charecter;
+var age;
+var isLoggedIn;
+age: 20;
+isLoggedIn: true;
+var barbarosa = [];
+barbarosa.push("barbarosa");
+var mixed = [];
+mixed.push("lawand");
+mixed.push(20);
+mixed.push(false);
+console.log(mixed);
+var uid;
+uid: "123";
+uid: 123;
+var ninjaOne;
+ninjaOne = { name: "barbarosa", age: 20 };
+ninjaOne = [];
+var ninjaTwo;
+ninjaTwo = { name: "barbarosa", age: 20, beltColour: "blue" };

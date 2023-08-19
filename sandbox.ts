@@ -1,15 +1,39 @@
-let names = ['barbarosa',"uruj,sinanthearch"];
+let charecter:string;
+let age:number;
+let isLoggedIn:boolean;
+
+age:20;
+
+isLoggedIn:true;
+
+let barbarosa:string[]=[];
 
 
-
-let numbers = [10,12,14,20];
-
-numbers.push(25)
+barbarosa.push("barbarosa");
 
 
-//objects
-let barbarosa = {
-    name:"barbarosa",
-    belt:"blue",
-    age:20,
+let mixed:(string|number|boolean)[]=[];
+
+mixed.push("lawand");
+mixed.push(20)
+mixed.push(false)
+console.log(mixed);
+
+
+let uid: string|number;
+uid:"123";
+uid:123;
+
+
+let ninjaOne:object;
+ninjaOne={name:"barbarosa",age:20};
+ninjaOne = [];
+
+
+let ninjaTwo:{
+    name:string,
+    age:number,
+    beltColour:string;
 }
+
+ninjaTwo={name:"barbarosa",age:20,beltColour:"blue"}
